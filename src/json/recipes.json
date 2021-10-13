@@ -1,0 +1,30 @@
+[
+
+	{
+		"name": "spaghetti",
+		"type": "lunch",
+		"servings": 4,
+		"difficulty": "medium",
+		"description": "Basic spaghetti dish that serves a family of 4, only 4 ingredients required and instructions are basic and easy to follow.",
+		"ingredients": [
+			"noodles", "tomato sauce", "water", "parmesan"
+		],
+		"steps": [ "Pour water into a pot", "Bring water inside pot to a boil", "Stick noodles in pot"
+		]
+	},
+
+	{
+		"name": "tacos",
+		"type": "dinner",
+		"servings": 3,
+		"difficulty": "easy",
+		"description": "Basic taco dish, feeds a family of 3, only 5 ingredients, the shells should combine to become 1 ingredient because there are 2 variants. This recipe is very straightforward, you cook the taco meat, and then once its fully cooked, you place it inside the hard/soft shell, and then add toppings, and the dish is complete.",
+		"ingredients": [
+			"taco meat", "hard shells or soft shells", "lettuce", "tomato", "cheese"
+		],
+		"steps": [
+			"Prepare taco shells", "Cook meat until thoroughly and properly cooked", "Add meat to taco shell", "Add toppings to taco shell"
+		]
+	}
+
+]
