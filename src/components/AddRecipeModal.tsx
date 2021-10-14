@@ -3,9 +3,8 @@ import { Modal, Form, Row, Col } from 'react-bootstrap';
 import { useState } from 'react';
 
 export const AddRecipeModal = () => {
-	const [show, setShow] = useState<boolean>(false);
+	const [show, setShow] = useState<boolean>(true);
 	const handleClose = () => setShow(false);
-	const handleShow = () => setShow(true);
 
 	return (
 		<>
