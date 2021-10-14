@@ -25,6 +25,19 @@
 		"steps": [
 			"Prepare taco shells", "Cook meat until thoroughly and properly cooked", "Add meat to taco shell", "Add toppings to taco shell"
 		]
+	},
+	{
+		"name": "hamburger",
+		"type": "dinner",
+		"servings": 4,
+		"difficulty": "easy",
+		"description": "Basic hamburger style",
+		"ingredients":[
+			"beef patties", "hamburger buns", "lettuce", "ketchup", "tomato"
+		],
+		"steps": [
+			"Put hamburger bun in toaster, and toast lightly", "Put patties on grill to cook", "Wait until patties are light-brown", "Retrieve bun and place patty between buns", "Optional: Add condiments"
+		]
 	}
 
 ]

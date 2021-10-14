@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container, Row, Col, Badge } from 'react-bootstrap';
+import { Container, Row, Col, Badge, Button } from 'react-bootstrap';
 import { RecipeList } from './RecipeList';
 
 
@@ -14,6 +14,13 @@ export const MainPage = (): JSX.Element =>
 		<Row>
 			<Col>
 				<RecipeList />
+			</Col>
+		</Row>
+		<br />
+		<br />
+		<Row>
+			<Col style={{ textAlign: 'center' }}>
+				<Button>Add Recipe</Button>
 			</Col>
 		</Row>
 	</Container>;
